@@ -1,0 +1,25 @@
+@import "tailwindcss";
+@font-face {
+    font-family: 'SquidGame';
+    src:url('/fonts/GameOfSquids.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  @theme {
+    --font-squid:SquidGame,"sans-seif";
+  }
+  @import "slick-carousel/slick/slick.css";
+  @import "slick-carousel/slick/slick-theme.css";
+  .slick-slide {
+    transition: all 0.3s ease-in-out;
+    filter: blur(4px); 
+    opacity: 0.5;
+  }
+  
+  .slick-center {
+    filter: blur(0px) !important; 
+    opacity: 1 !important;
+    transform: scale(1.1); 
+  }
+  
+  
