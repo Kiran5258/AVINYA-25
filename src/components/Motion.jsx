@@ -119,39 +119,46 @@ export default function Motion() {
         </div>
       </section>
 
-      <section className="w-full min-h-screen bg-gray-900 flex flex-col items-center justify-center py-20 font-squid" style={{ backgroundImage: `url(${bg})`,    backgroundSize: "cover",    // Ensures the image covers the entire section
-    backgroundPosition: "center", 
+      <section
+  className="relative w-full min-h-screen flex flex-col items-center justify-center py-20 font-squid"
+  style={{
+    backgroundImage: `url(${bg})`,
+    backgroundSize: "cover",
+    backgroundPosition: "center",
     backgroundRepeat: "no-repeat",
-    height: "100vh", }}>
-        <h2 className="text-4xl font-bold text-white mb-10">Events</h2>
-        <div className="relative md:w-full w-80 max-w-lg h-200 ">
-          <Slider {...settings}>
-            {events.map((event) => (
-              <div key={event.id} className="flex justify-center">
-                <div className="relative flex flex-col items-center bg-gray-800 bg-opacity-50 rounded-lg p-6 w-50 shadow-lg sm:w-80">
-                  <img
-                    src={event.image}
-                    alt={event.title}
-                    className="w-25 h-25 mb-4 object-cover rounded-lg"
-                  />
-                  <h2 className="text-xs md:text-lg  font-bold text-white text-center">
-                    {event.title}
-                  </h2>
-                  <p className="text-sm text-gray-300 text-center">
-                    {event.description}
-                  </p>
-                  <button
-                    className="mt-4 px-6 py-2 text-xs md:text-lg bg-gray-700 text-white font-semibold border border-gray-500 rounded-md hover:bg-gray-600 transition cursor-pointer"
-                    onClick={() => navigate(`/event/${event.id}`)}
-                  >
-                    KNOW MORE
-                  </button>
-                </div>
-              </div>
-            ))}
-          </Slider>
+  }}
+>
+  <div className="relative md:w-full w-100 max-w-lg">
+  <h2 className="text-4xl font-bold text-white mb-10 text-center">Events</h2>
+  <Slider {...settings}>
+    {events.map((event) => (
+      <div key={event.id} className="flex justify-center">
+        <div className="relative flex flex-col items-center bg-gray-800 bg-opacity-80 rounded-md p-6 w-60 shadow-lg sm:w-80 h-[370px]">
+          <img
+            src={event.image}
+            alt={event.title}
+            className="w-40 h-40 object-cover rounded-lg mb-4"
+          />
+          <h2 className="text-lg font-bold text-white text-center">
+            {event.title}
+          </h2>
+          <p className="text-sm text-gray-300 text-center flex-1">
+            {event.description}
+          </p>
+          <button
+            className="mt-2 mb-2 px-6 py-2 bg-gray-700 text-white font-semibold border border-gray-500 rounded-md hover:bg-gray-600 transition cursor-pointer"
+            onClick={() => navigate(`/event/${event.id}`)}
+          >
+            KNOW MORE
+          </button>
         </div>
-      </section>
+      </div>
+    ))}
+  </Slider>
+</div>
+
+</section>
+
     </>
   );
 }
