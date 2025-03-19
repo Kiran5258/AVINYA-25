@@ -12,7 +12,7 @@ import uiux from "../assets/uiux.webp";
 import Escape from "../assets/Escape.webp";
 import debug from "../assets/debugging.webp";
 import mobliegame from "../assets/mobliegame.webp";
-import bg from "../assets/bg2.jpg"
+import bg from "../assets/Bg2.jpg"
 export default function Motion() {
   const navigate = useNavigate();
 
