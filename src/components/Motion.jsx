@@ -12,7 +12,7 @@ import uiux from "../assets/uiux.webp";
 import Escape from "../assets/Escape.webp";
 import debug from "../assets/debugging.webp";
 import mobliegame from "../assets/mobliegame.webp";
-import bg from "../assets/Bg2.jpg"
+import bg from "../assets/Bg2.jpg";
 export default function Motion() {
   const navigate = useNavigate();
 
@@ -69,12 +69,13 @@ export default function Motion() {
     slidesToScroll: 1,
     arrows: true,
     centerMode: true,
-    centerPadding: "20%",
+    centerPadding: "18%",
     responsive: [
       {
         breakpoint: 640,
         setting: {
-          centerpadding: "10%",
+          centerpadding: "20%",
+          arrow: true,
         },
       },
     ],
@@ -83,7 +84,6 @@ export default function Motion() {
   return (
     <>
       <section className="relative w-full h-screen flex flex-col items-center justify-center">
-
         <video
           src={bgvideo}
           autoPlay
@@ -120,45 +120,44 @@ export default function Motion() {
       </section>
 
       <section
-  className="relative w-full min-h-screen flex flex-col items-center justify-center py-20 font-squid"
-  style={{
-    backgroundImage: `url(${bg})`,
-    backgroundSize: "cover",
-    backgroundPosition: "center",
-    backgroundRepeat: "no-repeat",
-  }}
->
-  <div className="relative md:w-full w-100 max-w-lg">
-  <h2 className="text-4xl font-bold text-white mb-10 text-center">Events</h2>
-  <Slider {...settings}>
-    {events.map((event) => (
-      <div key={event.id} className="flex justify-center">
-        <div className="relative flex flex-col items-center bg-gray-800 bg-opacity-80 rounded-md p-6 w-60 shadow-lg sm:w-80 h-[370px]">
-          <img
-            src={event.image}
-            alt={event.title}
-            className="w-40 h-40 object-cover rounded-lg mb-4"
-          />
-          <h2 className="text-lg font-bold text-white text-center">
-            {event.title}
-          </h2>
-          <p className="text-sm text-gray-300 text-center flex-1">
-            {event.description}
-          </p>
-          <button
-            className="mt-2 mb-2 px-6 py-2 bg-gray-700 text-white font-semibold border border-gray-500 rounded-md hover:bg-gray-600 transition cursor-pointer"
-            onClick={() => navigate(`/event/${event.id}`)}
-          >
-            KNOW MORE
-          </button>
+        className="w-full min-h-screen bg-gray-900 flex flex-col items-center justify-center py-20 font-squid"
+        style={{
+          backgroundImage: `url(${bg})`,
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          backgroundRepeat: "no-repeat",
+          height: "100vh",
+        }}
+      >
+        <h2 className="text-4xl font-bold text-white mb-10">Events</h2>
+        <div className="relative md:w-full w-80 max-w-lg h-200">
+          <Slider {...settings}>
+            {events.map((event) => (
+              <div key={event.id} className="flex justify-center">
+                <div className="relative flex flex-col items-center bg-gray-800 bg-opacity-50 rounded-lg p-6 w-50 shadow-lg sm:w-80 h-[350px]">
+                  <img
+                    src={event.image}
+                    alt={event.title}
+                    className="w-40 h-40 mb-4 object-cover rounded-lg"
+                  />
+                  <h2 className="text-xs md:text-lg font-bold text-white text-center">
+                    {event.title}
+                  </h2>
+                  <p className="text-sm text-gray-300 text-center flex-1">
+                    {event.description}
+                  </p>
+                  <button
+                    className="mt-4 px-6 py-2 text-xs md:text-lg bg-gray-700 text-white font-semibold border border-gray-500 rounded-md hover:bg-gray-600 transition cursor-pointer"
+                    onClick={() => navigate(`/event/${event.id}`)}
+                  >
+                    KNOW MORE
+                  </button>
+                </div>
+              </div>
+            ))}
+          </Slider>
         </div>
-      </div>
-    ))}
-  </Slider>
-</div>
-
-</section>
-
+      </section>
     </>
   );
 }
