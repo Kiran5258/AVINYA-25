@@ -49,7 +49,7 @@ Plagiarism is strictly prohibited; copied designs will result in disqualificatio
       title: "THE MASKED BUG",
       description: `Participants must compete individually; team entries are not allowed.
 External assistance and plagiarism are strictly prohibited.
-Each round will have a 30-minute time limit.
+Each round will have a 45-minute time limit.
 Participants will debug faulty code containing syntax, logical, or runtime errors while maintaining the program’s intended logic.
 A second round will be conducted only if needed in case of ties or close competition.`,
       registerLink: "https://forms.gle/Wx8pU2E27qkjazCw9",
@@ -63,20 +63,24 @@ Code must be corrected without altering the intended logic of the program.`,
     },
     4: {
       title: "THE ELIMINATION ROOM",
-      description: `Players must complete all levels within 60 minutes to escape.
-Each level presents a coding, logic, or encryption puzzle that must be solved to progress.
-Failed challenges can be retried, but with potential time penalties.
-Hints are available, but they reduce the final score or add a time penalty.
-The game ends if the timer reaches zero before all challenges are completed.`,
+      description: `Compete in teams of two in this fast-paced coding and logic challenge! With only 40 teams allowed,
+       you must clear four levels—Riddles, Code Filler, Coding, and Quiz—within 60 minutes to win.
+      Each level unlocks the next, and hints are available but come at a cost.
+      Eliminations occur at each stage based on participation.
+      Think fast, solve smart, and race to the finish!`,
       registerLink: "https://forms.gle/Wx8pU2E27qkjazCw9",
-      Rule: `●Duo participation only.
-●The game must be completed within 60 minutes.
-●Players must complete each level to unlock the next one.
-●Each level has a coding, logic, or encryption puzzle to solve.
-●Players can retry failed challenges but may face time penalties.
-●Hints are available but will reduce the final score or add a time penalty.
-●Escape by solving all levels before time runs out.
-●The game ends if the timer reaches zero before completing all challenges.`,
+      Rule: `Team Size: Maximum 2 participants (Duo).
+Participation Limit: First come, first serve – only 40 teams allowed.
+Time Limit: 60 minutes.
+Players must complete each level to unlock the next.
+Each level includes coding, logic, or encryption puzzles.
+Levels :
+Level 1 : Riddles
+Level 2 : Code filler
+Level 3 : Coding
+Level 4 : Quiz
+Hints are available, But they reduce the final score. 
+Elimination criteria: Based on number of registration, eliminated in each level.`,
     },
     5: {
       title: "DIGITAL DEATH MATCH",
@@ -197,7 +201,6 @@ Only two prizes Winner & Runner.`,
                 d="M19 9l-7 7-7-7"
               ></path>
             </svg>
-            
           </div>
         </section>
 
