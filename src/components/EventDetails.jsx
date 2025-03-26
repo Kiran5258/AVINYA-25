@@ -105,31 +105,27 @@ FREE FIRE
     },
     6: {
       title: "THE FRONT MAN'S STRATEGY",
-      description: ` ROUND 1: 
-Spot the Brand:
-❖Identify the brand based on its logo and advertisement.
-ROUND 2:
-Tune Hunt: 
-❖Identify the song by listening to its background music and by its lyrics
-ROUND 3:
-Echoverse:  
-❖A movie scene with audio will be played for the participants based on their   turn
-❖Each participant will have a limited number of chances to watch the video.
-❖After watching, they must dub the dialogue.
-❖They can either recreate the original dialogue or create their own version.
-ROUND 4 :
-Miccheck:
-❖ Participants will receive a random/ topic on the spot.
-❖ The speech should not exceed more than 2 minutes.
-❖ Irrelevant content will result in disqualification.
-❖ Speech can be in Tamil or English.
- One minute will be given for preparation.`,
+      description: ` Rounds in board room boss :
+ROUND 1: BrandHive
+Identify the brand based on its logo and advertisement.
+ROUND 2: Tune Hunt
+Identify the song by listening to its background music, lyrics and connections.
+ROUND 3: Echoverse
+A movie scene with audio will be played for participants.
+Each participant has limited chances to watch the video.
+After watching, they must dub the dialogue.
+Participants can either recreate the original dialogue or create their own version.
+ROUND 4: Pictogram Play
+Participants will receive a random image on the spot.
+Participants must analyze the positioning, size, color, and arrangement of elements in the puzzle to find the hidden phrase.
+Speech duration: Maximum 15 sec (Per image)`,
       registerLink: "https://forms.gle/Wx8pU2E27qkjazCw9",
-      Rule: `●Limited participant's  only .first-come, first-served basis
-●The use of mobile phones or any other devices is strictly prohibited.
-●Only solo participation is allowed.
-●There will be four rounds, each with a specific time limit. Participants must complete each round within the given time.Emotions and Expressions are needed.
-●In each round, judges will select the best players to the next round.`,
+      Rule: `Participation: Solo only.
+Entry Limit: Limited slots, first come, first served.
+Device Usage: Mobile phones and other devices are strictly prohibited.
+Rounds: Four rounds with specific time limits.
+Judging Criteria: Judges will select the best players for the next round.
+Performance: Emotions and expressions are essential.`,
     },
     7: {
       title: "456 BIDDING WAR",
