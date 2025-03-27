@@ -47,6 +47,10 @@ which will be provided on the spot.`,
 designs must be created during the event.
 ●Plagiarism: Strictly prohibited; copied designs will lead to
 disqualification.`,
+contact:`
+Contact:
+HariHaran U - 8754621240
+Nithish S - 7708723271`
     },
     3: {
       title: "THE MASKED BUG",
@@ -67,6 +71,9 @@ disqualification.`,
 ●Do not reconstruct the entire code with new code; only make necessary corrections or adjustments.
 ●LANGUAGES: python, c, c++, Java
 ●The participant is allowed to choose their preffered language`,
+contact:`
+Contact:
+Yuvarajan - 8428733620`
     },
     4: {
       title: "THE ELIMINATION ROOM",
@@ -89,8 +96,8 @@ Elimination criteria: Based on number of registration, eliminated in each level
 Languages: python, c, Java.`,
 contact:`
 Contact:
-1. Dharsan - 9345614584
-2.Prasanna - 9344427793`
+Dharsan - 9345614584
+Prasanna - 9344427793`
     },
     5: {
       title: "DIGITAL DEATH MATCH",
@@ -146,6 +153,10 @@ Duration: Maximum 15 sec (Per image)`,
       Rule: `●Team Selection: Maximum 10 teams (First Come First Serve).
 ●Team Size: Up to 4 participants per team.
 ●Registration: Only online registration is accepted.`,
+contact:
+`Contact:
+Jeeva N - 6379818794
+Sanjay S - 7397139329`
     },
   };
 

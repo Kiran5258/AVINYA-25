@@ -159,7 +159,7 @@ export default function Motion() {
             ))}
           </Slider>
         </div>
-        <div className="h-auto w-full flex flex-col justify-center items-center mt-48 ">
+        <div className="h-auto w-80 flex flex-col justify-center items-center mt-48 ">
           <div className="w-92 max-w-3xl mt-10 px-6 py-4 bg-gray-700 text-white font-bold rounded-md border-3 mr-6 ml-6">
             <h1 className="text-xl mb-2 text-center font-squid">
               General Rules
