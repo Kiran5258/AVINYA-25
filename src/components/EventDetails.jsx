@@ -39,7 +39,7 @@ which will be provided on the spot.`,
       registerLink: "https://forms.gle/Wx8pU2E27qkjazCw9",
       Rule: `●Team Size: Duo participation only.
 ●Event Duration: 90 minutes.
-●Rounds: Round 2 will be conducted.
+●Rounds: 2 Rounds will be conducted.
 ●Theme/Problem Statement: Given on the spot.
 ●Design Scope: Web page UI/UX design.
 ●Allowed Tools: Figma and Adobe XD.
