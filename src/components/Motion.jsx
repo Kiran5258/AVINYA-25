@@ -120,17 +120,19 @@ export default function Motion() {
       </section>
 
       <section
-        className="w-full min-h-screen bg-gray-900 flex flex-col items-center justify-center py-20 font-squid"
+        className="w-full min-h-[120vh] bg-gray-900 flex flex-col items-center justify-center py-20"
         style={{
           backgroundImage: `url(${bg})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          height: "100vh",
+          minHeight: "120vh",
         }}
       >
-        <h2 className="text-4xl font-bold text-white mb-10">Events</h2>
-        <div className="relative md:w-full w-80 max-w-lg h-200">
+        <h2 className="text-4xl font-bold text-white mb-10 font-squid">
+          Events
+        </h2>
+        <div className="relative md:w-full w-80 max-w-lg h-[250px] font-squid">
           <Slider {...settings}>
             {events.map((event) => (
               <div key={event.id} className="flex justify-center">
@@ -147,7 +149,7 @@ export default function Motion() {
                     {event.description}
                   </p>
                   <button
-                    className="mt-4 px-6 py-2 text-xs md:text-lg bg-gray-700 text-white font-semibold border border-gray-500 rounded-md hover:bg-gray-600 transition cursor-pointer"
+                    className="mt-4 mb-4 px-6 py-2 text-xs md:text-lg bg-gray-700 text-white font-semibold border border-gray-500 rounded-md hover:bg-gray-600 transition cursor-pointer"
                     onClick={() => navigate(`/event/${event.id}`)}
                   >
                     KNOW MORE
@@ -157,6 +159,43 @@ export default function Motion() {
             ))}
           </Slider>
         </div>
+        <div className="h-auto w-full flex flex-col justify-center items-center mt-48 ">
+          <div className="w-92 max-w-3xl mt-10 px-6 py-4 bg-gray-700 text-white font-bold rounded-md border-3 mr-6 ml-6">
+            <h1 className="text-xl mb-2 text-center font-squid">
+              General Rules
+            </h1>
+            <ul className="text-sm text-left list-none pl-2">
+              <li>● Certificates will be provided for all the participants.</li>
+              <li>● The winners will be rewarded with the Exiciting
+              Prizes.</li>
+              <li>
+                ● A participant should participate in a maximum of two events
+                (One technical and One non-technical).
+              </li>
+              <li>● Only online registration is available.</li>
+              <li>● Lunch and refreshments will be provided.</li>
+              <li>
+                ● A proper dress code will be followed, and a college ID card is
+                mandatory.
+              </li>
+              <li>
+                ● All participants should report at the reception at 9:00 am.
+              </li>
+              <li>
+                ● In all events, the decision of the judges will be final and
+                obligatory.
+              </li>
+            </ul>
+          </div>
+        </div>
+        <a
+          href="https://drive.google.com/file/d/1oYPu4a-Milbso1u_RqI4Yrr3t9F32B31/view?usp=sharing"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="px-6 py-2 mt-4 bg-gray-700 text-white font-bold rounded-md border-3 border-red-500 hover:bg-gray-600 transition"
+        >
+          Rule Book
+        </a>
       </section>
     </>
   );

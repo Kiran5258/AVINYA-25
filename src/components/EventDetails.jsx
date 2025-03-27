@@ -17,97 +17,106 @@ export default function EventDetails() {
 ➢Cloud computing
 ➢Current Trends(Relate to IT)`,
       registerLink: "https://forms.gle/Wx8pU2E27qkjazCw9",
-      Rule: `❖Maximum number of participants in a team is 3 and the minimum number is 2.
-❖Abstract should not exceed more than 250 words and paper should not exceed 15 pages.
-❖Soft copy of the submitted paper must be in .docx format.
-❖Soft copy must be submitted day before the event.Use clear and readable fonts.
-❖The team will get 5 minutes for presentation followed by questions and answer sessions.
-❖Send your abstract to itkrcemysticzip2k23@gmail.com
-❖The abstract mail should contain abstract references, your e-mail id and mobile number.
-❖Range of the slides in the presentation file is 5-10 slides.
-❖Participants should come with proper dress code`,
+      Rule: `●Team Size: 2 to 3 participants.
+●Abstract: Maximum 250 words.
+●Submission Format: PPT (.pptx).
+●Submission Deadline: One day before the event.
+●Presentation Time: 10 minutes, followed by a Q&A session.
+●Presentation Slides: Minimum 10 slides and Maximum 12 slides.
+●Formatting: Use clear and readable fonts.
+●Dress Code: Formal attire.`,
+contact:`
+Contact:
+1.Santha - 7418300492
+2.Issac - 7418313877`
     },
     2: {
       title: "GLASS BRIDGE DESIGN",
       description: `UI/UX 
-Duo participation is mandatory.
-The event will last 40 minutes, with a possible second round if required.
-Participants will design a webpage UI/UX based on a given theme or problem statement.
-Only Figma and Adobe XD are allowed; pre-made templates are not permitted.
-Plagiarism is strictly prohibited—original designs are required.`,
+The UI/UX Design Event is a competition where participants will showcase their creativity and 
+design skills by crafting a visually appealing and user-friendly interface. This event focuses on designing an interactive web page that aligns with a given theme or problem statement,
+which will be provided on the spot.`,
       registerLink: "https://forms.gle/Wx8pU2E27qkjazCw9",
-      Rule: `●Duo participation only.
-●The total duration of the event is 40 minutes.
-●If needed, Round 2 will be conducted based on the competition's requirements
-●Participants will be given a theme or problem statement on the spot.
-●The design should be based on webpage UI/UX.
-●Allowed design tools: Figma and Adobe XD.
-●Pre-made templates are not allowed; designs must be created during the event.
-Plagiarism is strictly prohibited; copied designs will result in disqualification.`,
+      Rule: `●Team Size: Duo participation only.
+●Event Duration: 90 minutes.
+●Rounds: Round 2 will be conducted.
+●Theme/Problem Statement: Given on the spot.
+●Design Scope: Web page UI/UX design.
+●Allowed Tools: Figma and Adobe XD.
+●Template Usage: Pre-made templates are not allowed;
+designs must be created during the event.
+●Plagiarism: Strictly prohibited; copied designs will lead to
+disqualification.`,
     },
     3: {
       title: "THE MASKED BUG",
-      description: `Participants must compete individually; team entries are not allowed.
-External assistance and plagiarism are strictly prohibited.
-Each round will have a 45-minute time limit.
-Participants will debug faulty code containing syntax, logical, or runtime errors while maintaining the program’s intended logic.
-A second round will be conducted only if needed in case of ties or close competition.`,
+      description: `The Debugging Challenge is a competitive coding event 
+      where participants must analyze and correct faulty code snippets within a given time frame.
+      This event tests problem-solving skills, programming proficiency, and debugging efficiency.
+      Contestants will be given code containing syntax errors, logical errors, or runtime errors,
+      and their task is to identify and fix them while preserving the original program’s intended logic.`,
       registerLink: "https://forms.gle/Wx8pU2E27qkjazCw9",
-      Rule: `●Solo participation only – team entries are not allowed.
-●Any form of external assistance or plagiarism is strictly prohibited.
-●A second round will be conducted only if needed (e.g., in case of ties or close competition).
-●Each round will have a 30-minute time limit.
-●Participants will receive a faulty code snippet and must debug it to produce the correct output.
-●The errors in the code may include syntax errors, logical errors, or runtime errors.
-Code must be corrected without altering the intended logic of the program.`,
+      Rule: `●Participation: Solo only. Assistance & Plagiarism: Strictly prohibited.
+●Rounds: Round 2 may be conducted if needed (e.g., ties or close competition).
+●Time Limit: 45 minutes per round.
+●Task: Debug a faulty code snippet to produce the correct output.
+●Error Types: Syntax errors, logical errors, or runtime errors.
+●Code Integrity: Fix errors without altering the intended logic of the program.Tab switching is not allowed.
+●Maintain the given time limit.
+●There should be no communication between participants.
+●Do not reconstruct the entire code with new code; only make necessary corrections or adjustments.
+●LANGUAGES: python, c, c++, Java
+●The participant is allowed to choose their preffered language`,
     },
     4: {
       title: "THE ELIMINATION ROOM",
-      description: `Compete in teams of two in this fast-paced coding and logic challenge! With only 40 teams allowed,
-       you must clear four levels—Riddles, Code Filler, Coding, and Quiz—within 60 minutes to win.
-      Each level unlocks the next, and hints are available but come at a cost.
-      Eliminations occur at each stage based on participation.
-      Think fast, solve smart, and race to the finish!`,
+      description: `Code Quest is a thrilling multi-level coding challenge designed to test participants’ problem-solving, logical reasoning, and programming skills.
+      The event consists of four progressive levels, each presenting unique challenges such as riddles, code fillers, coding problems, and quizzes.
+      Teams must successfully complete each level to advance to the next stage.`,
       registerLink: "https://forms.gle/Wx8pU2E27qkjazCw9",
-      Rule: `Team Size: Maximum 2 participants (Duo).
-Participation Limit: First come, first serve – only 40 teams allowed.
-Time Limit: 60 minutes.
-Players must complete each level to unlock the next.
-Each level includes coding, logic, or encryption puzzles.
-Levels :
-Level 1 : Riddles
-Level 2 : Code filler
-Level 3 : Coding
-Level 4 : Quiz
+      Rule: `●Team Size: Maximum 2 participants (Duo).
+●Participation Limit: First come, first serve – only 20 teams allowed.
+●Time Limit: 60 minutes.
+●Players must complete each level to unlock the next.
+●Each level includes coding, logic, or encryption puzzles.
+●Levels :
+●Level 1 : Riddles
+●Level 2 : Code filler
+●Level 3 : Coding
+●Level 4 : Quiz
 Hints are available, But they reduce the final score. 
-Elimination criteria: Based on number of registration, eliminated in each level.`,
+Elimination criteria: Based on number of registration, eliminated in each level
+Languages: python, c, Java.`,
+contact:`
+Contact:
+1. Dharsan - 9345614584
+2.Prasanna - 9344427793`
     },
     5: {
       title: "DIGITAL DEATH MATCH",
-      description: `The event features two popular battle royale games: BGMI and Free Fire.
-In BGMI, squads must have a  4 players, and emulators are strictly prohibited.
-Free Fire matches will be played in Battle Royale Squad Mode, with open qualifiers and finals.
-Players must bring their own mobile devices with an active internet connection.
-Hacking or teaming up will result in immediate disqualification. Winners will be determined based on rank position in BGMI and match results in Free Fire.`,
+      description: `The Battle Royale Gaming Tournament is an intense esports competition featuring two popular mobile games: BGMI (Battlegrounds Mobile India) and Free Fire. Players will compete in squads to showcase their strategic gameplay, survival skills, and combat tactics in an ultimate showdown.
+      ●Device Restrictions: Emulators are not allowed.
+      ●Fair Play: Hacking or teaming up will result in disqualification.
+      Monetary winnings will be forfeited if disqualified`,
       registerLink: "https://forms.gle/Wx8pU2E27qkjazCw9",
       Rule: `BGMI
-●Must have a 4 players should be in a squad.
-●Emulators are not allowed.
-●The player should bring their mobile and have an internet connection.
-●If you are caught hacking or teaming up your team will be disqualified.
-●Only one round will be conducted (Erangel)
-●Winners will be decided based on their rank position.
-
+●Squad Size: 4 players per squad.
+●Equipment: Players must bring their own mobile device with an internet connection.
+●Match Format: Single round on Erangel map.
+●Winning Criteria: Based on final rank position.
 FREE FIRE
-●All matches are in Battle Royal Squad Mode
-●Emulator not allowed
-●Open qualifiers and Finals.`,
+●Game Mode: Battle Royale – Squad Mode.
+●Squad Size: 4 players per squad.
+●Tournament Structure: Open Qualifiers & Finals.
+●Scoring: Teams earn points based on performance in each match.
+●Map Requirement: Players must download necessary maps (Purgatory - Nextra - No Character Skill).
+`,
     },
     6: {
       title: "THE FRONT MAN'S STRATEGY",
-      description: ` Rounds in board room boss :
+      description: `Rounds in board room boss :
 ROUND 1: BrandHive
-Identify the brand based on its logo and advertisement.
+Identify the brand based on its logo and advertisement and taglines.
 ROUND 2: Tune Hunt
 Identify the song by listening to its background music, lyrics and connections.
 ROUND 3: Echoverse
@@ -118,29 +127,25 @@ Participants can either recreate the original dialogue or create their own versi
 ROUND 4: Pictogram Play
 Participants will receive a random image on the spot.
 Participants must analyze the positioning, size, color, and arrangement of elements in the puzzle to find the hidden phrase.
-Speech duration: Maximum 15 sec (Per image)`,
+Duration: Maximum 15 sec (Per image)`,
       registerLink: "https://forms.gle/Wx8pU2E27qkjazCw9",
-      Rule: `Participation: Solo only.
-Entry Limit: Limited slots, first come, first served.
-Device Usage: Mobile phones and other devices are strictly prohibited.
-Rounds: Four rounds with specific time limits.
-Judging Criteria: Judges will select the best players for the next round.
-Performance: Emotions and expressions are essential.`,
+      Rule: `●Participation: Solo only.
+●Entry Limit: Limited slots, First Come First Serve.
+●Device Usage: Mobile devices(Except 1 Round) and other devices are strictly prohibited.
+●Rounds: Four rounds with specific time limits.
+●Judging Criteria: Judges will select the best players for the next round.
+●Performance: Emotions and expressions are essential.`,
     },
     7: {
       title: "456 BIDDING WAR",
-      description: `A maximum of 10 teams will be selected based on first-come, first-served registration.
-Each team can have up to 4 participants.
-Online registration is mandatory; no offline entries will be accepted.
-Teams will engage in a thrilling auction-style competition, strategizing to build the best squad.
-Only two prizes will be awarded: Winner & Runner-up.`,
+      description: `The IPL Auction event is an exciting strategic game designed to simulate the real Indian Premier League (IPL) player auction.
+      Participants will take on the role of team owners and bid for players to build the strongest possible cricket squad within a given budget.
+      This event tests decision-making, budget management, strategy, and knowledge of cricket.`,
       note: "Note: first come first serve",
       registerLink: "https://forms.gle/Wx8pU2E27qkjazCw9",
-      Rule: `●Maximum 10 teams to be selected based on registration.
-●First Come First Serve
-●Maximum 4 participants per team.
-●Online registration is only accepted.
-Only two prizes Winner & Runner.`,
+      Rule: `●Team Selection: Maximum 10 teams (First Come First Serve).
+●Team Size: Up to 4 participants per team.
+●Registration: Only online registration is accepted.`,
     },
   };
 
@@ -216,14 +221,16 @@ Only two prizes Winner & Runner.`,
           {event.Rule && (
             <div className="w-11/12 max-w-lg bg-gray-700 p-6 rounded-lg shadow-lg border border-gray-500 opacity-90">
               <h1 className="text-xl font-semibold mb-3">RULES:</h1>
-              <p className="whitespace-pre-line">{event.Rule}</p>
+              <p className="whitespace-pre-line">{event.Rule}
+                <span className="font-bold whitespace-pre-line mt-2">{event.contact}</span>
+              </p>
             </div>
           )}
           <a
             href={event.registerLink}
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-2  bg-gray-700 text-white font-bold rounded-md border-3 border-red-500 hover:bg-gray-600 transition"
+            className="px-6 py-2 mt-0 bg-gray-700 text-white font-bold rounded-md border-3 border-red-500 hover:bg-gray-600 transition"
           >
             Register Now
           </a>
