@@ -73,6 +73,7 @@ Nithish S - 7708723271`
 ●The participant is allowed to choose their preffered language`,
 contact:`
 Contact:
+Sivamani - 8531807705
 Yuvarajan - 8428733620`
     },
     4: {
@@ -118,6 +119,9 @@ FREE FIRE
 ●Scoring: Teams earn points based on performance in each match.
 ●Map Requirement: Players must download necessary maps (Purgatory - Nextra - No Character Skill).
 `,
+contact:`
+Contact:
+Vignesh raj - 9791502223`
     },
     6: {
       title: "THE FRONT MAN'S STRATEGY",
@@ -142,6 +146,9 @@ Duration: Maximum 15 sec (Per image)`,
 ●Rounds: Four rounds with specific time limits.
 ●Judging Criteria: Judges will select the best players for the next round.
 ●Performance: Emotions and expressions are essential.`,
+contact:`
+Contact:
+Ragul Raja - 7904897562`
     },
     7: {
       title: "456 BIDDING WAR",
