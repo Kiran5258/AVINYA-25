@@ -4,7 +4,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import bgvideo from "../assets/Bgvideo.mp4";
 import { useNavigate } from "react-router-dom";
-// import krcelogo from "../assets/11.png";
 import ipl from "../assets/456.webp";
 import front from "../assets/Frontman.webp";
 import paperpresent from "../assets/paperpresentation.webp";
@@ -13,6 +12,7 @@ import Escape from "../assets/Escape.webp";
 import debug from "../assets/debugging.webp";
 import mobliegame from "../assets/mobliegame.webp";
 import bg from "../assets/Bg2.jpg";
+
 export default function Motion() {
   const navigate = useNavigate();
 
@@ -21,43 +21,43 @@ export default function Motion() {
       id: "1",
       title: "DALGONA PAPERS",
       description: "PAPER PRESENTATION",
-      image: `${paperpresent}`,
+      image: paperpresent,
     },
     {
       id: "2",
       title: "GLASS BRIDGE DESIGN",
       description: "UI/UX",
-      image: `${uiux}`,
+      image: uiux,
     },
     {
       id: "3",
       title: "THE MASKED BUG",
       description: "DEBUGGING",
-      image: `${debug}`,
+      image: debug,
     },
     {
       id: "4",
       title: "THE ELIMINATION ROOM",
       description: "THE GLITCH ESCAPE",
-      image: `${Escape}`,
+      image: Escape,
     },
     {
       id: "5",
       title: "DIGITAL DEATH MATCH",
       description: "Mobile Games",
-      image: `${mobliegame}`,
+      image: mobliegame,
     },
     {
       id: "6",
       title: "THE FRONT MAN'S STRATEGY",
       description: "Board Room Boss",
-      image: `${front}`,
+      image: front,
     },
     {
       id: "7",
       title: "456 BIDDING WAR",
       description: "IPL AUCTION",
-      image: `${ipl}`,
+      image: ipl,
     },
   ];
 
@@ -74,26 +74,31 @@ export default function Motion() {
       {
         breakpoint: 640,
         setting: {
-          centerpadding: "20%",
-          arrow: true,
+          centerPadding: "20%",
+          arrows: true,
         },
       },
     ],
   };
 
   return (
-    <>
-      <section className="relative w-full h-screen flex flex-col items-center justify-center">
+    <div className="snap-y snap-mandatory h-screen overflow-y-scroll scroll-smooth">
+      <section className="relative w-full h-screen flex flex-col items-center justify-center snap-start bg-black">
         <video
           src={bgvideo}
           autoPlay
           loop
           muted
-          className="absolute top-0 left-0 w-full h-full object-cover"
+          className="absolute top-0 left-0 w-full h-full object-cover opacity-0 animate-fade-in"
         />
-        <h1 className="text-6xl md:text-8xl font-bold font-squid text-white text-center z-10">
+        <h1
+          className="text-6xl md:text-8xl font-bold font-squid text-center z-10 
+              bg-gradient-to-r from-white to-pink-500 text-transparent bg-clip-text 
+              drop-shadow-lg "
+        >
           AVINYA'25
         </h1>
+
         <div
           className="absolute bottom-10 animate-bounce cursor-pointer"
           onClick={() =>
@@ -118,20 +123,23 @@ export default function Motion() {
           </svg>
         </div>
       </section>
-
       <section
-        className="w-full min-h-[120vh] bg-gray-900 flex flex-col items-center justify-center py-20"
+        id="descriptionSection"
+        className="w-full min-h-screen bg-gray-900 flex flex-col items-center justify-center py-20 snap-start"
         style={{
           backgroundImage: `url(${bg})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           backgroundRepeat: "no-repeat",
-          minHeight: "120vh",
         }}
       >
-        <h2 className="text-4xl font-bold text-white mb-10 font-squid">
+        <h2
+          className="text-4xl font-bold text-white mb-10 font-squid 
+              drop-shadow-[3px_3px_0px_black]"
+        >
           Events
         </h2>
+
         <div className="relative md:w-full w-80 max-w-lg h-[250px] font-squid">
           <Slider {...settings}>
             {events.map((event) => (
@@ -159,15 +167,17 @@ export default function Motion() {
             ))}
           </Slider>
         </div>
-        <div className="h-auto w-80 flex flex-col justify-center items-center mt-48 ">
-          <div className="w-92 max-w-3xl mt-10 px-6 py-4 bg-gray-700 text-white font-bold rounded-md border-3 mr-6 ml-6">
+        <div className="h-auto w-80 flex flex-col justify-center items-center mt-40">
+          <div className="w-92 max-w-3xl mt-10 px-6 py-4 bg-gray-700 text-white font-bold rounded-md border-3">
             <h1 className="text-xl mb-2 text-center font-squid">
               General Rules
             </h1>
             <ul className="text-sm text-left list-none pl-2">
+              <li className="font-bold text-red-500">
+                The last day for registration is April 5th.
+              </li>
               <li>● Certificates will be provided for all the participants.</li>
-              <li>● The winners will be rewarded with the Exiciting
-              Prizes.</li>
+              <li>● The winners will be rewarded with exciting prizes.</li>
               <li>
                 ● A participant should participate in a maximum of two events
                 (One technical and One non-technical).
@@ -188,6 +198,7 @@ export default function Motion() {
             </ul>
           </div>
         </div>
+
         <a
           href="https://drive.google.com/file/d/1oYPu4a-Milbso1u_RqI4Yrr3t9F32B31/view?usp=sharing"
           target="_blank"
@@ -197,6 +208,6 @@ export default function Motion() {
           Rule Book
         </a>
       </section>
-    </>
+    </div>
   );
 }
