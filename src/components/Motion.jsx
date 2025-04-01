@@ -179,8 +179,10 @@ export default function Motion() {
               <li>● Certificates will be provided for all the participants.</li>
               <li>● The winners will be rewarded with exciting prizes.</li>
               <li>
-                ● A participant should participate in a maximum of two events
-                (One technical and One non-technical).
+                ● Each participant can participate in either one Technical Event or one Non-Technical Event.
+              </li>
+              <li>
+                ● To join two events, a participant must pick one Technical and one Non-Technical Event
               </li>
               <li>● Only online registration is available.</li>
               <li>● Lunch and refreshments will be provided.</li>
