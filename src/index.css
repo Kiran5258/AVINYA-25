@@ -12,13 +12,13 @@
   @import "slick-carousel/slick/slick-theme.css";
   .slick-slide {
     transition: all 0.3s ease-in-out;
-    /* filter: blur(4px);  */
-    opacity: 0.5;
+     filter: blur(2px);  
+    opacity: 2; 
   }
   
   .slick-center {
-    /* filter: blur(0px) !important;  */
-    opacity: 1 !important;
+     filter: blur(0px) !important;  
+    opacity: 1 !important; 
     transform: scale(1.1); 
   }
   
@@ -31,7 +31,7 @@
   @keyframes fadeIn {
     from {
       opacity: 0;
-      filter: blur(10px);
+      filter: blur(5px);
     }
     to {
       opacity: 1;

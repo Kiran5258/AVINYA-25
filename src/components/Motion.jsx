@@ -4,6 +4,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import bgvideo from "../assets/Bgvideo.mp4";
 import { useNavigate } from "react-router-dom";
+import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import ipl from "../assets/456.webp";
 import front from "../assets/Frontman.webp";
 import paperpresent from "../assets/paperpresentation.webp";
@@ -61,25 +62,52 @@ export default function Motion() {
     },
   ];
 
+  const CustomPrevArrow = (props) => {
+    const { onClick } = props;
+    return (
+      <div
+        className="absolute left-[-50px] top-1/2 transform -translate-y-1/2 z-10 cursor-pointer"
+        onClick={onClick}
+      >
+        <FaChevronLeft className="text-black bg-white rounded-3xl text-4xl hover:text-gray-400" />
+      </div>
+    );
+  };
+  
+  const CustomNextArrow = (props) => {
+    const { onClick } = props;
+    return (
+      <div
+        className="absolute right-[-50px] top-1/2 transform -translate-y-1/2 z-10 cursor-pointer"
+        onClick={onClick}
+      >
+        <FaChevronRight className="text-black bg-white rounded-3xl text-4xl hover:text-gray-400" />
+      </div>
+    );
+  };
+  
   const settings = {
     dots: false,
     infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    arrows: true,
     centerMode: true,
     centerPadding: "18%",
+    prevArrow: <CustomPrevArrow />,
+    nextArrow: <CustomNextArrow />,
     responsive: [
       {
         breakpoint: 640,
-        setting: {
+        settings: {
           centerPadding: "20%",
           arrows: true,
         },
       },
     ],
   };
+  
+  
 
   return (
     <div className="snap-y snap-mandatory h-screen overflow-y-scroll scroll-smooth">
