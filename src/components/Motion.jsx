@@ -202,7 +202,7 @@ export default function Motion() {
             </h1>
             <ul className="text-sm text-left list-none pl-2">
               <li className="font-bold text-red-500">
-                The last day for registration is April 5th.
+              ● The registration deadline has been extended unitl the 7th
               </li>
               <li>● Certificates will be provided for all the participants.</li>
               <li>● The winners will be rewarded with exciting prizes.</li>
@@ -214,10 +214,6 @@ export default function Motion() {
               </li>
               <li>● Only online registration is available.</li>
               <li>● Lunch and refreshments will be provided.</li>
-              <li>
-                ● A proper dress code will be followed, and a college ID card is
-                mandatory.
-              </li>
               <li>
                 ● All participants should report at the reception at 9:00 am.
               </li>
