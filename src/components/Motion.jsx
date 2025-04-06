@@ -204,6 +204,9 @@ export default function Motion() {
               <li className="font-bold text-red-500">
               ● The registration deadline has been extended unitl the 7th
               </li>
+              <li className="font-bold text-red-500">
+             💥ON-SPOT REGISTRATION IS NOW AVAILABLE💥
+              </li>
               <li>● Certificates will be provided for all the participants.</li>
               <li>● The winners will be rewarded with exciting prizes.</li>
               <li>
