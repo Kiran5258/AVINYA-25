@@ -126,7 +126,21 @@ export default function Motion() {
         >
           AVINYA'25
         </h1>
-
+        <h1
+          className="text-sm font-bold mt-4 font-squid text-center z-10 text-white "
+        >
+          With Cash Prize for every Event
+        </h1>
+         <h1
+          className="text-sm font-bold mt-2 text-red-400 tracking-wider font-squid text-center z-10 "
+        >
+          Winner Prize - 750
+        </h1>
+         <h1
+          className="text-sm font-bold mt-2 tracking-wider font-squid text-center z-10 text-red-400 "
+        >
+          Runner Prize - 500
+        </h1>
         <div
           className="absolute bottom-10 animate-bounce cursor-pointer"
           onClick={() =>
