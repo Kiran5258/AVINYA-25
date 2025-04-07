@@ -216,7 +216,7 @@ export default function Motion() {
             </h1>
             <ul className="text-sm text-left list-none pl-2">
               <li className="font-bold text-red-500">
-              ● The registration deadline has been extended unitl the 7th
+              ● ONLINE REGISTRATION IS CLOSED
               </li>
               <li className="font-bold text-red-500">
              💥ON-SPOT REGISTRATION IS NOW AVAILABLE💥
